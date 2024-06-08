@@ -385,18 +385,6 @@ def question7(public_key, modifier):
 
 # Question 8: Part 1
 
-# # TODO BORRAR
-# def get_sigAP():
-#     capture = pyshark.FileCapture(
-#         "data/saepk.pcapng",
-#         display_filter="wlan.fixed.auth.alg==3",
-#         use_json=True,
-#         include_raw=True,
-#     )
-#     sigAP = capture[3].get_raw_packet()[98:169]
-#     capture.close()
-#     return sigAP
-
 """
 Generates a signature from the given dataTBS.
 """
